@@ -7,6 +7,10 @@ import Algorithms.AbstractAlgoritm;
  */
 public class Test extends AbstractAlgoritm {
 
+    public Test(){
+        System.out.println("Konstruktor Test");
+    }
+
     @Override
     public String getName() {
         return "Test";

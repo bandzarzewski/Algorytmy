@@ -6,6 +6,10 @@ package Algorithms;
 // Klasa abstrakcyjna nie moze być private
 public abstract class AbstractAlgoritm {
 
+    public AbstractAlgoritm(){
+        System.out.println("Konstruktor Abstract Algoritm");
+    }
+
     public abstract String getName();
     public abstract void runAlgoritm(String[] input);
 }
