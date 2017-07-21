@@ -14,6 +14,7 @@ public class Main {
             AbstractAlgoritm algoritm =
                     fabric.getAlgoritm(algorithmName);
 
+            algoritm.runAlgoritm(args);
 
     }
 }
