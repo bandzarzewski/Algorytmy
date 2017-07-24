@@ -30,7 +30,6 @@ public class BiednyCamelCase extends AbstractAlgoritm {
                 }
                 l++;
             }
-
         }
     }
 }
