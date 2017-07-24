@@ -6,19 +6,21 @@ import Algorithms.*;
 public class AlgoritmFabric {
     public AbstractAlgoritm getAlgoritm(String name) throws Exception {
 
-        switch (name.toLowerCase()){
-            case"test":
+        switch (name.toLowerCase()) {
+            case "test":
                 return new Test();
-            case"biednycamelcase":
+            case "biednycamelcase":
                 return new BiednyCamelCase();
-            case"sumowanieliczbnaturalnych":
+            case "sumowanieliczbnaturalnych":
                 return new SumowanieLiczbNaturalnych();
-            case"sumofnumbers":
+            case "sumofnumbers":
                 return new SumOfNumbers();
-            case"cash":
+            case "cash":
                 return new Cash();
+            case "rokprzystepny":
+                return new RokPrzystepny();
             default:
-                    throw new Exception("Nie ma takiego algorytmu");
+                throw new Exception("Nie ma takiego algorytmu");
         }
     }
 }
