@@ -15,21 +15,22 @@ public class BiednyCamelCase extends AbstractAlgoritm {
         System.out.println("Biedny Camel Case");
 
 
-        int l=0;
-        for (int i = 1; i <input.length ; i++) {
+        int l = 0;
+        for (int i = 1; i < input.length; i++) {
 
-            String word=input[i];
-            char[] Tab =word.toCharArray();
+            String word = input[i];
+            char[] Tab = word.toCharArray();
 
-            for (int j = 0; j<Tab.length ; j++) {
-                if(l%2==0){
+            for (int j = 0; j < Tab.length; j++) {
+                if (l % 2 == 0) {
 
                     System.out.print(Character.toString(Tab[j]).toUpperCase());
-                }else{
+                } else {
                     System.out.print(Character.toString(Tab[j]).toLowerCase());
                 }
                 l++;
             }
         }
+
     }
 }
