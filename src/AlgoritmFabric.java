@@ -31,6 +31,10 @@ public class AlgoritmFabric {
                 return new SpacjaCamelCase();
             case "syfrcezara":
                 return new SzyfrCezara();
+            case "algorytmbabelkowy":
+                return new AlgorytmBabelkowy();
+            case "sorowaniewzgledempunktu":
+                return new SortowanieWzgledemPunktu();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
