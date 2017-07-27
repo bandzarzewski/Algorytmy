@@ -30,6 +30,7 @@ public class SzyfrCezara extends AbstractAlgoritm {
                     int move = (position + 3) % _letters.length; //do pozycji literki dodajemy 3 znaki
                     //aby upewnić się, że nie odwołamy się do literki, która nie istnieje korzystamy z operacji modulo
                     //symbol %, która sprawi, że gdy odwołamy się np do 26 literki (nie ma jej) to zwróci nam 2 literkę
+
                     System.out.printf("%s", _letters[move]); //drukujemy przesuniętą literkę. Możemy ją pobrać z tablicy literek
                 } else {
                     System.out.println("Podany znak nie występuje w naszej tablicy znaków!");
