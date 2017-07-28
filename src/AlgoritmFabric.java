@@ -39,6 +39,12 @@ public class AlgoritmFabric {
                 return new SortowaniePrzezZliczanie();
             case "krzyzowka":
                 return new Krzyzowka();
+            case "najwiekszywspolnydzielnik":
+                return new NajwiekszyWspolnyDzielnik();
+            case "generatorplanszywarcaby":
+                return new GeneratorPlanszyWarcaby();
+            case "domianta":
+                return new Dominanta();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
