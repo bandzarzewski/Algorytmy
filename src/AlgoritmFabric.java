@@ -45,6 +45,14 @@ public class AlgoritmFabric {
                 return new GeneratorPlanszyWarcaby();
             case "domianta":
                 return new Dominanta();
+            case "wyznaczaniedatywielkanocy":
+                return new WyznaczanieDatyWielkanocy();
+            case "tablice":
+                return new Tablice();
+            case "algmaxminwart":
+                return new AlgorytmWyszukiwanieMaxMinWartosci();
+            case "algwyszykiwanielidera":
+                return new AlgWyszykiwanieLidera();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }

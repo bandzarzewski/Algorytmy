@@ -24,12 +24,15 @@ public class BiednyCamelCase extends AbstractAlgoritm {
             for (int j = 0; j < Tab.length; j++) {
                 if (l % 2 == 0) {
 
+
                     System.out.print(Character.toString(Tab[j]).toUpperCase());
                 } else {
                     System.out.print(Character.toString(Tab[j]).toLowerCase());
                 }
                 l++;
             }
+
+
         }
 
     }
