@@ -10,11 +10,11 @@ public class Main {
 //        for (int i = 0; i < args.length ; i++) {
 //                System.out.println(args[i]);}
 
-            AlgoritmFabric fabric = new AlgoritmFabric();
-            AbstractAlgoritm algoritm =
-                    fabric.getAlgoritm(algorithmName);
+        AlgoritmFabric fabric = new AlgoritmFabric();
+        AbstractAlgoritm algoritm =
+                fabric.getAlgoritm(algorithmName);
 
-        System.out.println("Wykonujemy algorytm"+algoritm.getName());
+        System.out.println("Wykonujemy algorytm" + algoritm.getName());
 
         algoritm.runAlgoritm(args);
 

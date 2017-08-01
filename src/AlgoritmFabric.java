@@ -53,6 +53,10 @@ public class AlgoritmFabric {
                 return new AlgorytmWyszukiwanieMaxMinWartosci();
             case "algwyszykiwanielidera":
                 return new AlgWyszykiwanieLidera();
+            case "testowanielisty":
+                return new TestowanieListy();
+            case "listyzad":
+                return new ListyZad();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
