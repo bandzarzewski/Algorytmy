@@ -60,8 +60,11 @@ public class AlgoritmFabric {
             case "prostedrzewo":
                 return new Drzewo();
             case "kopiec":
-                return new Kopiec();
-
+                return new TestowanieKopca();
+            case "przeliczaniesys":
+                return new PrzeliczanieSystemow();
+            case "odwrotnanotacjapolska":
+                return new OdwrotnaNotacjaPolska();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
