@@ -61,6 +61,7 @@ public class AlgoritmFabric {
                 return new Drzewo();
             case "kopiec":
                 return new Kopiec();
+
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
