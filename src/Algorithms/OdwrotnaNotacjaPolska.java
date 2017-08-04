@@ -13,10 +13,10 @@ public class OdwrotnaNotacjaPolska extends AbstractAlgoritm {
     public void runAlgoritm(String[] input) {
 
         Stack<Integer> s = new Stack<>();
-        int a = 0;
-        int b = 0;
-        for (int i = 1; i < input.length; i++) {
 
+        for (int i = 1; i < input.length; i++) {
+            int a = 0;
+            int b = 0;
             switch (input[i]) {
                 case "R":
                     System.out.println(s.pop());

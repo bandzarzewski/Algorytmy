@@ -1,4 +1,6 @@
 import Algorithms.*;
+import PowtorzenieWiadomosci4_08.Zad1Dupilkat;
+import PowtorzenieWiadomosci4_08.Zad2_Arrayslist;
 
 /**
  * Created by RENT on 2017-07-21.
@@ -65,6 +67,10 @@ public class AlgoritmFabric {
                 return new PrzeliczanieSystemow();
             case "odwrotnanotacjapolska":
                 return new OdwrotnaNotacjaPolska();
+            case "zad1duplikat":
+                return new Zad1Dupilkat();
+            case "zad2arraylist":
+                return new Zad2_Arrayslist();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
