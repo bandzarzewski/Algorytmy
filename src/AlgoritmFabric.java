@@ -71,6 +71,8 @@ public class AlgoritmFabric {
                 return new Zad1Dupilkat();
             case "zad2arraylist":
                 return new Zad2_Arrayslist();
+            case "nwd":
+                return new nwd();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
