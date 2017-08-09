@@ -56,7 +56,6 @@ public class nwd extends AbstractAlgoritm {
                     System.out.printf("%s ", stack.pop());
                     break;
             }
-
         }
     }
 

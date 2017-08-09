@@ -73,6 +73,8 @@ public class AlgoritmFabric {
                 return new Zad2_Arrayslist();
             case "nwd":
                 return new nwd();
+            case "nww":
+                return new Nww();
             default:
                 throw new Exception("Nie ma takiego algorytmu");
         }
